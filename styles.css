@@ -1,0 +1,114 @@
+
+body{
+    overflow-x: hidden;
+}
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+.hero{
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    z-index: -2;
+}
+.header-text{
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.custom-shape-divider-bottom-1677716789 {
+    position: absolute;
+    top: 33%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1677716789 svg {
+    position: relative;
+    display: block;
+    width: calc(133% + 1.3px);
+    height: 88px;
+}
+
+.custom-shape-divider-bottom-1677716789 .shape-fill {
+    fill: #fff;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+#card-holder > * {
+    padding: 0;
+}
+span{
+    cursor: pointer;
+}
+#filter{
+    color: #198754;
+}
+.card > img{
+    position: absolute;
+    border-radius: 12px;
+}
+.card > .card-body{
+
+    text-align: center;
+    top: 20%;
+    margin: 0 auto;
+}
+
+.card-body :nth-child(1){
+    font-size: 1.5em;
+    margin: 0;
+}
+.card-body :nth-child(1), .card-body :nth-child(2){
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 700;
+}
+.card-rank :nth-child(1){
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+}
+.card > .rank-heart-container, .card > .card-body, .card > .card-price {
+    position: relative;
+}
+.card > .rank-heart-container{
+    top: 5%;
+}
+.fa-heart{
+    color: white;
+    cursor: pointer;
+}
+.liked{
+    color: red;
+}
+.card > .card-price{
+    bottom: 5%;
+    left: 63%;
+}
+.card-price :nth-child(1){
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 700;
+    font-size: 0.85em;
+}
+.mask{
+    padding: 21% 0;
+    border-radius: 12px;
+}
+.disabled{
+    pointer-events: none;
+}

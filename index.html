@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <title>Carlist - Best Cars to Drive</title>
+</head>
+<body>
+  
+  <!-- Site Header -->  
+  <div class="hero px-3 py-2" >
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="images/loop.mp4" type="video/mp4">
+    </video>
+    <a href="#" class="home-link"><img src="images/logo.png" alt=""/></a>
+      <div class="header-text text-white mx-5 my-5">
+        <h1 href="#" class="header-title fs-1">Find your next car</h1>
+        <p class="header-description fs-4">Join our newsletter to get the most up to date ranking for car</p>
+      </div>
+    </nav>
+  </div>
+  <div class="custom-shape-divider-bottom-1677716789">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+  </div>
+  <!-- Filter Button-->
+  
+    <div class="container-fluid">
+      <div class="row align-items-center mx-1 my-3">
+        <span class="badge rounded-pill border border-success px-4 py-3 col-1" id="filter">Filter</span>
+        <div class="form-outline col-2 ">
+          <input type="search" id="search-input" class="form-control" placeholder="Search For Cars" aria-label="Search" />
+        </div>
+      </div>
+  <!-- Category Filter -->
+      <div class="pill-container my-2">
+
+        <span class="badge rounded-pill bg-body text-secondary fs-6 py-2" id="sedan">Sedans</span>
+        <span class="badge rounded-pill bg-body text-secondary fs-6 py-2" id="suv">SUVs</span>
+        <span class="badge rounded-pill bg-body text-secondary fs-6 py-2" id="truck">Trucks</span>
+        
+      </div>
+      <div class="row mx-auto" id="card-holder">
+          
+      </div>
+    </div>
+    <script src="data.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+    <script src="suvbtn.js" type="module"></script>
+    <script src="sedanbtn.js" type="module"></script>
+    <script src="truckbtn.js" type="module"></script>
+    <script src="scrape.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
